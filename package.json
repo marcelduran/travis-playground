@@ -1,0 +1,11 @@
+{
+  "name": "travis-playground",
+  "version": "0.0.0",
+  "description": ".travis.yml playground",
+  "dependencies": {
+    "webpagetest": "~0.1.2"
+  },
+  "scripts": {
+    "test": "./node_modules/webpagetest/bin/webpagetest test t.co --key $WPT_API_KEY --first --location Dulles:Chrome --poll --specs tco-specs.json --reporter spec"
+  }
+}
