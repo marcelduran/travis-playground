@@ -1,7 +1,7 @@
 --- 
-env:
-  global:
-    - secure: VsgjnE4+ja6EJFjBx74ftI0PQ0K/IvKc/JkqkHbb0ssa/UDgXC9PX/bbQW1iiKBsWKVrghsS9AqQY0owpUpIyA0BUrTF7yBhbdQvOC83jHxuzhqrbcTSGpOQrmXlbWkADdku8so9PIzjAL1DJi8XoZa7yqug6hnSfE6SofWhCuI=
-node_js: 
-  - "0.8"
+env: 
+  global: 
+    secure: HtdMh4xUvciqr3osBHEdSIgSi88M5QT1HIM3KVbTCWWXj9vqFIUNQWkH3IY8uy18NphCs1igd2eVbQf+1KE3wlzH1wgWO9DO1DpQ9F12QPl/SDtDSTnftxZc/5oIe3taOkdrBDljnK24KjBnW7ou69qF76D4n0UZ4v+wsNHl7EQ=
 language: node_js
+node_js: 
+- "0.8"
