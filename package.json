@@ -2,6 +2,10 @@
   "name": "travis-playground",
   "version": "0.0.0",
   "description": ".travis.yml playground",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcelduran/travis-playground.git"
+  },
   "dependencies": {
     "webpagetest": "~0.1.2"
   },
